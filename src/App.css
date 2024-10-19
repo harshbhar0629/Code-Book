@@ -39,62 +39,62 @@ body {
   background: #13072e;
 }
 
-nav {
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #13072e;
-  z-index: 2;
-  padding-bottom: 25px;
+.text-black{
+  color: black;
 }
 
-.nav-icon {
+#nav1 {
+  height: 80px;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  background: #13072e;
+  z-index: 2;
+  padding-bottom: 10px;
+}
+
+.nav-icon1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo {
+.logo1 {
   height: 80px;
   margin-left: 5%
 }
 
-.nav-icon p {
+/* .nav-icon1 p {
   width: 200px;
   font-size: 1.25rem;
   font-weight: 700;
-}
+} */
 
-.nav-text {
+.nav-text1 {
   margin-top: 14px;
   display: flex;
   word-wrap: break-word;
 }
 
-.nav-list {
+.nav-list1 {
   list-style: none;
   display: flex;
   padding-bottom: 25px;
 }
 
-.nav-item {
+.nav-item1 {
   margin-left: 5vw;
   font-size: 1.15rem;
   cursor: pointer;
 }
 
-.nav-item a {
+.nav-item1 a {
   color: white;
   text-decoration: none;
   opacity: 0.8;
 }
 
-.nav-item a:hover {
+.nav-item1 a:hover {
   opacity: 1;
   font-weight: 500;
 }
@@ -529,7 +529,6 @@ textarea {
   border: none;
   text-align: left;
   padding-left: 20px;
-  color: black;
   font-size: 1.1rem;
 }
 
@@ -545,10 +544,9 @@ textarea {
   font-size: 1rem;
 }
 
-.form textarea {
-  height: 12vw;
-  padding-top: 10px;
-}
+/* .form textarea {
+  
+} */
 
 .submit-btn {
   margin-top: -10px;
@@ -582,11 +580,11 @@ h1{
 }
 
 .footer {
-  background-color: #fff;
+  background-color: #cccccc;
   height: 55vh;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  color: black;
+  color: black !important;
   font-weight: 500;
 }
 
@@ -603,19 +601,19 @@ h1{
   width: 50%;
 }
 
-.footer .left .nav-icon {
+.footer .left .nav-icon1 {
   float: left;
   color: black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.footer .left .nav-icon .logo {
+.footer .left .nav-icon1 .logo1 {
   height: 60px;
   margin-left: 20px;
 }
 
-.footer .left .nav-icon p {
+.footer .left .nav-icon1 p {
   font-weight: 700;
   font-size: 20px;
 }
@@ -631,7 +629,7 @@ h1{
 .foot {
   text-align: center;
   padding: 20px;
-  background-color: white;
+  background-color: #cccccc;
   border-top: 1.5px solid rgba(0, 0, 0, 0.4);
   font-size: 16px;
   color: #333;
